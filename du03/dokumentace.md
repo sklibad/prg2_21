@@ -1,4 +1,4 @@
-## Hledání volných polch svahů
+## Hledání volných ploch svahů
 Program `calculate_slope.py` načítá 2 vstupní parametry: 
 1) digitální model terénu `--terrain <jmeno_souboru>`
 2) digitální model povrchu `--surface <jmeno_souboru>`.
