@@ -106,7 +106,7 @@ def main():
 
                             # Find undeveloped areas by comparing rasters
                             difference = np.abs(terrain_window - surface_window)
-                            mask_window = np.where(difference <= limit, 1, 0)
+                            mask_window = np.where(difference <= limit, 1, np.nan)
 
                             # Calculate slope
                             slopes_window = calculate_slope(terrain_window)
